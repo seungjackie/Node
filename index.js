@@ -22,3 +22,7 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
+
+// 기존의 git add. 한 부분 제거
+// git rm --cached node_modules -r
